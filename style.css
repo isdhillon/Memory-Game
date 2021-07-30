@@ -1,0 +1,105 @@
+/*Applied to all*/
+*{
+    box-sizing: border-box;
+}
+/*Html elements*/
+body{
+    margin: 0;
+}
+/*main container*/
+.main-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
+}
+/*Heading container*/
+.heading-container{
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    font-size: 5rem;
+    font-family: system-ui;
+    font-weight: 700;
+    margin-bottom: 4rem;
+}
+/*game container*/
+.game-container{
+    height: 30rem;
+    width: 30rem;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+    align-items: center;
+}
+.star , .moves, .time{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-right: 2px;
+}
+/*Game grid*/
+.game-box{
+    height: 27rem;
+    width: 27rem;
+    background: #555555;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0.4rem;
+    border-radius: 15px;
+}
+.box{
+    height: 5rem;
+    width: 5rem;
+    margin-left: 1.2rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+}
+/*start button*/
+.start{
+    color: white;
+    background: #444444;
+    height: 2rem;
+    width: 4rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+/*win msg*/
+.win-msg{
+    margin: auto;
+    position: absolute;
+    height: 10rem;
+    background-color: #444444;
+    width: 30rem;
+    border-radius: 2rem;
+    text-align: center;
+    display: none;
+    box-shadow: 0 1rem 5rem rgba(0,0,0,0.637);
+    
+}
+.win-btn{
+    width: 5rem;
+    border-radius: 20%;
+    height: 2rem;
+    background-color: #666666;
+    color: white;
+    font-size: 1rem;
+    font-weight: 800;
+
+}
+.text{
+    font-size: 2rem;
+    color: white;
+    font-weight: 800;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
